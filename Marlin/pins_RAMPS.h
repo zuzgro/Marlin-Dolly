@@ -235,7 +235,7 @@
   #define RAMPS_D10_PIN 10
 #endif
 
-#define HEATER_0_PIN     RAMPS_D10_PIN
+#define HEATER_0_PIN     RAMPS_D8_PIN
 
 #if ENABLED(IS_RAMPS_EFB)                      // Hotend, Fan, Bed
   #define FAN_PIN        RAMPS_D9_PIN
